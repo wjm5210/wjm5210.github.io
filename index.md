@@ -1,1 +1,5 @@
-  欢迎来到5UBG.ORG
+<HTML>
+ <HEAD>  欢迎来到5UBG.ORG</HEAD>
+ <BODY>666
+ </BODY>
+ </HTML>
