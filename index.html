@@ -7,14 +7,18 @@
 
 </style>
 </head>
-<body bgcolor="#0099FF">
+<body>
 
 <ui>
 <li>
 最简洁的网址导航
 </li>
 <li>
-<a href="http://www.baidu.com/" target="_blank">百度</a>
+<form target="_blank" name="f" method="get" action="https://www.baidu.com/baidu">
+
+<input value="" size="42" name="word" onMouseOver="this.focus();" maxlength="100" id="kww" onFocus="this.select();" autocomplete="off" class="formInput">
+<input type="submit" class="sb" value="百度一下">
+
 </li>
 <li>
 <a href="https://www.jiaming.pro/" target="_blank">佳明网</a>
