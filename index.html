@@ -4,34 +4,39 @@
 <meta name="description" content="一块极简的网址导航" />
 <title>5UBG导航格子</title>
 <style type="text/css">
+body {
+margin: 0px 0px  0px 0px;
+padding:0 0 0 0;
+}
+
 A{TEXT-DECORATION: none}
 A:link {COLOR: #000000; TEXT-DECORATION: none}
 A:visited {COLOR: #000000; TEXT-DECORATION: none}
 A:active { TEXT-DECORATION: none}
 A:hover { COLOR: #000000; TEXT-DECORATION: none}
-h1{COLOR: #66ccff;}
+.logo {COLOR: #66ccff;font-size:30px;text-align:center;}
 
 
 form {color:#000; font-size:24px;text-align:center;list-style-type:none;}
 ui {color:#000; font-size:24px;text-align:center;list-style-type:none;}
 li {border-style: solid; border-width: 0px;border-color:#ccc;height:50px; }
 input {
-width:300px; 
 height:50px; 
 font-size:24px;
-margin: 5px 0px  5px 0px;
-padding:0 0 0 0;
-border:1px solid red;background-color:transparent;
+border:1px solid #ff6600;background-color:transparent;
 outline:none;
 }
+input.dian {width:150px; margin: 5px 0px  0px 0px; }
+input.kuang {width:300px; }
 </style>
 </head>
 <body>
 
+<div class="logo" >5UBG导航格子</div>
 <form target="_blank" name="f" method="get" action="https://www.baidu.com/s">
-<h1>5UBG导航格子</h1>
-<input value="" size="42" name="word"  maxlength="100" autofocus="autofocus"  >
-<input type="submit" value="百度一下">
+<input class="kuang" value="" size="42" name="word"  maxlength="100" autofocus="autofocus"  >
+<br>
+<input class="dian" type="submit" value="百度一下">
 </form>
 
 
